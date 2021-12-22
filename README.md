@@ -1,3 +1,3 @@
 ## KaiClean
 
-[Install OmniSD](https://github.com/malikmiran/kaiclean/edit/main/installomni.md)
+[Install OmniSD](https://malikmiran.github.io/kaiclean/installomni.md)
