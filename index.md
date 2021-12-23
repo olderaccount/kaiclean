@@ -1,4 +1,4 @@
-## Index
+## Start Here
 
 [Devices](devices.md)
 
@@ -13,22 +13,22 @@
 [Customisation](Customisation.md)
 
 
-##Social Media
+## Social Media
 
 [Discord](https://discord.com/invite/rQ93zEu)
 
 [Telegram](t.me/bh_general)
 
-[Twitter](https://twitter.com/bananahackers)
-
 [Youtube](https://www.youtube.com/bananahackers)
+
+[Twitter](https://twitter.com/bananahackers)
 
 [Facebook](https://www.facebook.com/BananaHackers-101263954558113)
 
 [Google Groups](https://groups.google.com/g/bananahackers)
 
 
-##Subdomains
+## Subdomains
 
 [w2d](https://w2d.bananahackers.net/)
 
