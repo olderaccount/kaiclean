@@ -24,9 +24,9 @@ Many devices can sideload third-party apps, but other devices require special pa
    ### Difference between "normal sideload" and "Jailbreak"
 The official jailbreak method differs from the normal sideload only in the fact that, after point 5, a "privileged factory reset" is required directly from the jailbreak application that we will install (OmniSD, Wallace or Wallace-Toolbox) by pressing the # key from it, in order to automatically activate all the "Developer" options. After the reset, you will need to repeat the whole procedure if you want to use these applications for a different use (sideload without PC or root permissions).
    ### Difference between "Jailbreak" and "Root"
-    Jailbreak is a process that enables the development menu and allows installing third-party apps.
+   Jailbreak is a process that enables the development menu and allows installing third-party apps.
 
-    Rooting is a process that allows root-level of ADB console access (for more info visit the "ROOT" section).
+   Rooting is a process that allows root-level of ADB console access (for more info visit the "ROOT" section).
 
 ## Privileged mode
 The privileged mode, as the word itself says, is a boot mode in which the user has full control over the development tools and hidden components of the device, such as the "Developer" menu in the "Settings" app, you can also debug on the pre-installed applications and access the "Device Preferences" from WebIDE.
@@ -45,13 +45,13 @@ The "Developer" menu allows you to debug on a device, in addition to accessing A
 After two years of research, we have finally come to a precise pattern on how jailbreak works on different KaiOS devices. The approach is based on the type of processor used on the device, Qualcomm, Spreadtrum or Mediatek. Thanks to this study, we managed to jailbreak many different KaiOS devices. This diagram is provided by     
          SITUATION 1, typical of Qualcomm-based devices. If the code *#*#33284#*#* needed for debugging works, we must verify if we have access to ADB and WebIDE. If all goes well we can use OmniSD or Wallace Toolbox to get the jailbreak;
 
-    SITUATION 2, typical of Spreadtrum-based devices. If the code *#*#33284#*#* needed for debugging works, we must verify if we have access to ADB and WebIDE. If the result is negative, enable debugging using the code *#*#0574#*#* and retry the access to ADB and WebIDE. If all goes well we can use Wallace-toolbox to get the jailbreak;
+   SITUATION 2, typical of Spreadtrum-based devices. If the code *#*#33284#*#* needed for debugging works, we must verify if we have access to ADB and WebIDE. If the result is negative, enable debugging using the code *#*#0574#*#* and retry the access to ADB and WebIDE. If all goes well we can use Wallace-toolbox to get the jailbreak;
 
-    SITUATION 3, typical of Mediatek-based devices. The debug code does not work, let's check if Fastboot is available. If we have it, let check if it is possible to flash the "cache" partition. If all goes well, use the so-called "cache injection" method, and we will get the "Developer" menu;
+   SITUATION 3, typical of Mediatek-based devices. The debug code does not work, let's check if Fastboot is available. If we have it, let check if it is possible to flash the "cache" partition. If all goes well, use the so-called "cache injection" method, and we will get the "Developer" menu;
 
-    SITUATION 4, typical for all the locked devices. The debug code does not work and Fastboot is not available even to flash the partitions. Let's check if we have other tools to flash the partitions. If yes, we can use the "cache injection" method, and we will get the "Developer" menu;
+   SITUATION 4, typical for all the locked devices. The debug code does not work and Fastboot is not available even to flash the partitions. Let's check if we have other tools to flash the partitions. If yes, we can use the "cache injection" method, and we will get the "Developer" menu;
 
-    SITUATION 5. The debug code does not work, Fastboot is not available and we don't even have tools to flash the partitions. Jailbreak is not possible yet.
+   SITUATION 5. The debug code does not work, Fastboot is not available and we don't even have tools to flash the partitions. Jailbreak is not possible yet.
     
 diagram
 ![](https://ivan-hc.github.io/bananahackers/install-omnisd/5d9dac0755d71c8c6e60071c514897f3.jpg)
@@ -90,11 +90,11 @@ Another feature of this application is the ability to get a "Privileged Factory 
 
 OmniSD accepts app packages in the .zip format. An archive must contain three files:
 
-    application.zip file (with the actual WebIDE-compatible KaiOS/FFOS app);
+   application.zip file (with the actual WebIDE-compatible KaiOS/FFOS app);
 
-    update.webapp file (can be empty but must be present);
+   update.webapp file (can be empty but must be present);
 
-    metadata.json file in the following format:
+   metadata.json file in the following format:
 
 {"version": 1, "manifestURL": "app://[your_app_id]/manifest.webapp"},
 
@@ -103,11 +103,11 @@ where [your_app_id] has to be replaced with the actual ID (origin) of your app r
 ## Other applications similar to OmniSD
 Luxferre has created various projects, including a custom privacy-oriented rom (GerdaOS) and a real library of extensions and various tools for KaiOS. Here are some applications developed by him, containing some features in common with OmniSD:
 
-    GerdaOS File Manager, a modified version of the stock File Manager for KaiOS, that installs omnisd packages by not limiting itself to the "download" and "app" folders, unlike OmniSD;
+   GerdaOS File Manager, a modified version of the stock File Manager for KaiOS, that installs omnisd packages by not limiting itself to the "download" and "app" folders, unlike OmniSD;
 
-    Wallace (see the "Temporary Root" page) is an application that enables root privileges and can perform "privileged reset". A classic version, a light version (without adbd binary file) and an optimized version for devices with Spreadtrum chipset are available for this app;
+   Wallace (see the "Temporary Root" page) is an application that enables root privileges and can perform "privileged reset". A classic version, a light version (without adbd binary file) and an optimized version for devices with Spreadtrum chipset are available for this app;
 
-    Wallace-Toolbox (see the "Temporary Root" page) is the evolution of Wallace, which includes the same functions and various tools, such as the call recorder (KaiOS 2.5.2) and an IMEI repairer.
+   Wallace-Toolbox (see the "Temporary Root" page) is the evolution of Wallace, which includes the same functions and various tools, such as the call recorder (KaiOS 2.5.2) and an IMEI repairer.
     
 ## Best safe Jailbreak methods
 [OFFICIAL JAILBREAK, perform a "privileged factory reset" using OmniSD](officialjb.md)
