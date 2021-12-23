@@ -21,8 +21,10 @@ Many devices can sideload third-party apps, but other devices require special pa
 5.    With the triangular "Play button" at the top center of WebIDE, the app will be installed on your phone.
 
 ## Jailbreak on KaiOS: all you need to know
+
    ### Difference between "normal sideload" and "Jailbreak"
 The official jailbreak method differs from the normal sideload only in the fact that, after point 5, a "privileged factory reset" is required directly from the jailbreak application that we will install (OmniSD, Wallace or Wallace-Toolbox) by pressing the # key from it, in order to automatically activate all the "Developer" options. After the reset, you will need to repeat the whole procedure if you want to use these applications for a different use (sideload without PC or root permissions).
+
    ### Difference between "Jailbreak" and "Root"
    Jailbreak is a process that enables the development menu and allows installing third-party apps.
 
