@@ -7,6 +7,7 @@ Many devices can sideload third-party apps, but other devices require special pa
 1. DEBUG MODE, your device must be able to do this. Normally it is sufficient to dial the debug code *#*#33284#*#* (on Qualcomm), or in addition *#*#0574#*#* (Spreadtrum) to enable the USB debugging;
 2. ADB, a versatile command-line tool that allows you to communicate with a device;
 3. WEBIDE, the most common and complete of development tools. Choose an old version of Firefox (59 or earlier) or Pale Moon (28.6.1 or earlier), or use the official Kaios emulator (KaiOSRT). Alternatively to WebIDE you can use other command line development tools like Gdeploy, that uses NodeJS, or XPCshell, an XPConnect-enabled JavaScript Shell that lets you run JavaScript code. 
+
 ### Proceedings
 
 1.    Enable the debug mode on your device;
@@ -121,5 +122,5 @@ Luxferre has created various projects, including a custom privacy-oriented rom (
 Also known as Omnijb-final.zip or Smith.zip , the extreme method means stopping updates permanently. This guide is obsolete, not recommended and for educational purposes only! Use at your own risk [here](extremejb.md)
 
 
-##Gerda File Manager, PKG & GAB
+## Gerda File Manager, PKG & GAB
 Install omnisd packages from the file manager, learn more [here](gerdafilespkg.md)
