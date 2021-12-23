@@ -17,7 +17,7 @@
 
 [Discord](https://discord.com/invite/rQ93zEu)
 
-[Telegram](t.me/bh_general)
+[Telegram](https://t.me/bh_general)
 
 [Youtube](https://www.youtube.com/bananahackers)
 
